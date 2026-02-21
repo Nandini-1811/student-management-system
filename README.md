@@ -1,46 +1,72 @@
-Student Management System (Python + MySQL)
-📌 Overview
-A CLI-based Student Management System built using Python and MySQL to manage student records with relational database design.
+# Student Management System (Python + MySQL)
 
-🚀 Features
-Add Student
+## 📌 Overview
+A CLI-based Student Management System built using Python and MySQL to manage student records with relational database design and proper transaction handling.
 
-View Students
+---
 
-Update Student Age
+## 🚀 Features
+- Add Student
+- View Students
+- Update Student Age
+- Delete Student
+- View Students with Course (JOIN query)
+- Input validation and error handling
+- Transaction management using commit()
 
-Delete Student
+---
 
-View Students with Course (JOIN query)
+## 🛠 Technologies Used
+- Python
+- MySQL
+- mysql-connector-python
 
-Input validation and error handling
+---
 
-Transaction management using commit()
+## 🗄 Database Design
 
-🛠 Technologies Used
-Python
+### Students Table
+- id (Primary Key)
+- name
+- age
+- course_id (Foreign Key)
 
-MySQL
+### Courses Table
+- id (Primary Key)
+- course_name
 
-mysql-connector-python
+✔ Foreign key relationship between students and courses  
+✔ Relational schema implementation  
 
-🗄 Database Design
-students table (id, name, age, course_id)
+---
 
-courses table (id, course_name)
 
-Foreign key relationship between students and courses
+## ▶ How to Run
 
-▶ How to Run
-Install dependencies:
-
-Code
-
+### 1. Install Dependencies
 pip install -r requirements.txt
-Configure database credentials inside connect_db().
 
-Run:
 
-Code
+### 2. Configure Database
+Update your MySQL credentials inside `connect_db()` function.
 
+### 3. Run the Application
 python main.py
+
+
+---
+
+## 📚 Concepts Demonstrated
+- CRUD Operations
+- SQL JOIN
+- Foreign Key Relationships
+- Transaction Handling
+- Structured Python Functions
+- Modular Database Connection
+
+---
+
+Developed by Nandini Goel
+
+
+
