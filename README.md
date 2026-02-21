@@ -25,13 +25,14 @@ Designed using relational database principles and normalized schema structure.
 ---
 
 ## 📂 Project Structure
-
+```
 student-management-system/
-│── main.py
-│── connect_db.py
-│── requirements.txt
-│── README.md
-
+│
+├── main.py
+├── connect_db.py
+├── requirements.txt
+└── README.md
+```
 
 ---
 
@@ -57,14 +58,14 @@ student-management-system/
 ## ▶ How to Run
 
 ### 1. Install Dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 ### 2. Configure Database
 Update your MySQL credentials inside `connect_db()` function.
 
 ### 3. Run the Application
-python main.py
+```python main.py```
 
 
 ---
