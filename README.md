@@ -2,6 +2,7 @@
 
 ## 📌 Overview
 A CLI-based Student Management System built using Python and MySQL to manage student records with relational database design and proper transaction handling.
+Designed using relational database principles and normalized schema structure.
 
 ---
 
@@ -22,6 +23,18 @@ A CLI-based Student Management System built using Python and MySQL to manage stu
 - mysql-connector-python
 
 ---
+
+## 📂 Project Structure
+
+student-management-system/
+│── main.py
+│── connect_db.py
+│── requirements.txt
+│── README.md
+
+
+---
+
 
 ## 🗄 Database Design
 
